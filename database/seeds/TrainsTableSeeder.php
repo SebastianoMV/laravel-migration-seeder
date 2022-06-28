@@ -28,5 +28,5 @@ class TrainsTableSeeder extends Seeder
             $newTrain->save();   
 
         }
-    }
+    } 
 }
