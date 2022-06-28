@@ -18,7 +18,7 @@ class CreateTrainsTable extends Migration
             $table->string('company', 50);
             $table->string('departure', 30);
             $table->string('arrival', 30);
-            $table->dateTime('departure_time', 0);
+            $table->time('departure_time', 0);
             $table->string('code', 10);
             $table->tinyInteger('coach');
             $table->boolean('on_time');
